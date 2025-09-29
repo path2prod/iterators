@@ -3,6 +3,10 @@
 
 [versions]
 guava = "33.3.1-jre"
+lombok = "1.18.38"
+logback = "1.5.18"
 
 [libraries]
 guava = { module = "com.google.guava:guava", version.ref = "guava" }
+lombok = { module = "org.projectlombok:lombok", version.ref = "lombok" }
+logback = { module = "ch.qos.logback:logback-classic" , version.ref = "logback" }
