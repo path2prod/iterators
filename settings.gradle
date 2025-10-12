@@ -13,3 +13,4 @@ plugins {
 
 rootProject.name = 'iterators'
 include('basic')
+include('medium')
